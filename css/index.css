@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Iransans;
+  src: url(../assets/IRANSans-BKx7vO54.eot);
+  src: url(../assets/IRANSans-BKgzJfDo.woff);
+  src: url(../assets/IRANSans-CyEAM49a.woff2);
+  src: url(../assets/IRANSans-Bj1K3Zhy.ttf);
+ }
 @layer components {
   *{
     font-family: Iransans;
@@ -52,10 +59,4 @@ video {
   max-width: 100%;
   height: auto;
 }
- @font-face {
-  font-family: Iransans;
-  src: url(../assets/IRANSans-BKx7vO54.eot);
-  src: url(../assets/IRANSans-BKgzJfDo.woff);
-  src: url(../assets/IRANSans-CyEAM49a.woff2);
-  src: url(../assets/IRANSans-Bj1K3Zhy.ttf);
- }
+
